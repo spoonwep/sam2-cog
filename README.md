@@ -3,9 +3,9 @@
 ## Features
 
 - [x] segment image by points
-- [] segment image by box
-- [] segment video by points
-- [] segment video by box
+- [ ] segment image by box
+- [ ] segment video by points
+- [ ] segment video by box
 
 ## How to use
 
