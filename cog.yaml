@@ -8,7 +8,7 @@ build:
   # a list of ubuntu apt packages to install
   system_packages:
     - "git"
-  #   - "libgl1-mesa-glx"
+    - "libgl1-mesa-glx"
   #   - "libglib2.0-0"
 
   # python version in the form '3.11' or '3.11.4'

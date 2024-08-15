@@ -23,7 +23,7 @@ class Predictor(BasePredictor):
     def predict(
         self,
         image: Path = Input(description="Input image"),
-        points: Path = Input(description="Input points")
+        points: str = Input(description="Input points")
     ) -> Path:
         """Run a single prediction on the model"""
         

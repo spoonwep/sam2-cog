@@ -1,3 +1,38 @@
+# Cog for SAM2
+
+## Features
+
+- [x] segment image by points
+- [] segment image by box
+- [] segment video by points
+- [] segment video by box
+
+## How to use
+
+### Examples
+
+- segment image by points
+
+```shell
+# put an image(example.png) in the current directory
+# segment the image by points:
+# coordinate means the points you want to segment, type means the type of the points(1 add, 0 remove)
+sudo cog predict -i image=@example.png -i points='[{"coordinate":[750,520],"type":1}]'
+```
+
+- segment image by box
+
+To be continued...
+
+- segment video by points
+
+To be continued...
+
+- segment video by box
+
+To be continued...
+
+
 # SAM 2: Segment Anything in Images and Videos
 
 **[AI at Meta, FAIR](https://ai.meta.com/research/)**
